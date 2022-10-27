@@ -1,0 +1,4 @@
+class MyList
+  @list
+
+end
