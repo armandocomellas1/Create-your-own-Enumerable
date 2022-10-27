@@ -1,4 +1,0 @@
-class MyList
-  @list
-
-end
