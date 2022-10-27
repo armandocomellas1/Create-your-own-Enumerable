@@ -9,6 +9,8 @@ class MyList
     @list.each(&block)
     self #return the original array
   end
+
+  require_relative 'MyEnumerable'
 end
 
 list = MyList.new(1, 2, 3, 4)
