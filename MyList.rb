@@ -1,10 +1,15 @@
 class MyList
-  def thelist(arr)
-    @list = arr
-    list.each do |element|
-      @list= element
+  include Enumerable
+  def initialize(*x)
+    @list = x
+  end
+
+  #now we implement #each
+  def each(&block)
+    @list.each(&block)
+    self #return the original array
   end
 end
 
 list = MyList.new(1, 2, 3, 4)
-puts list
+p list
