@@ -24,7 +24,6 @@ def pick_example(list)
   end
 end
 pick_example(list)
-print @example
 list = @example
 
 p(list.all? {|e| e < 5})
