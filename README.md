@@ -30,14 +30,14 @@ To get a local copy up and running follow these simple steps.
 - **Open folder in VSC**
     - code .
 
-  - *Install dependencies locally*  
+  - *Install dependencies locally*
     - bundle install
 
 ## Built With
 
 - **Ruby**
 
-## Authors 
+## Authors
 
 👤 **Armando Comellas**
 - GitHub: [@armandocomellas](https://github.com/armandocomellas1)
